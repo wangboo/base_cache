@@ -4,7 +4,7 @@ defmodule BaseCacheTest do
   doctest BaseCache
 
   test "the truth" do
-  	IO.puts new_cache("item")
+  	new_cache("item")
     assert 1 + 1 == 2
   end
 end
